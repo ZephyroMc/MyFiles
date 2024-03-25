@@ -22,4 +22,4 @@ class Solution:
         return(res)
 NewClass = Solution()   
 print(NewClass.findMedianSortedArrays([0,0],[0]))
-        
+
