@@ -1,0 +1,107 @@
+.ahref{
+    text-decoration: none;
+    color: aliceblue;
+}
+.listas{
+    list-style: none;
+}
+
+
+.listasul{
+    list-style: none;
+    width: 200px;
+}
+.listasul a{
+    text-decoration: none;
+    color: white;
+}
+
+.CuentaStyle{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.CuentaStyle li,ul{
+    list-style: none;
+}
+
+.Contenedor-CuentaStyle{
+    border:3px solid rgb(226, 221, 221) ;
+    border-radius: 10px;
+    display: inline-block;
+    width: 70%;
+}
+
+.Contenedor-CuentaStyle h5{
+    display: inline-block;
+}
+
+.Contenedor-CuentaStyle h6{
+    display: inline-block;
+    width: 250px;
+    align-content: left;
+    margin-left: 20%;
+    
+}
+
+.Contenedor-CuentaStyle img{
+    width: 90px;
+    height: 90px;
+}
+
+
+.ListaCuenta li{
+    display: inline;
+    padding: 30px;
+
+} 
+
+.factura{
+background-color: rgb(255, 255, 255);
+
+
+}
+
+.facturadatos{
+background-color: rgb(255, 255, 255);
+margin: 50px;
+border: 2px solid black;
+border-radius: 10px;
+width: 90%;
+
+
+}
+
+.FacturaTitulo{
+    width: 70%;
+    margin: 90px;
+    display: inline-flex;
+}
+.FacturaID{
+    margin-top: 3%;
+    margin-left: 53%;
+}
+
+.datosCliente{
+    margin-left: 100px;
+    display: inline-flex;
+}
+.FacturaCliente{
+display: flex;
+margin: 50px;
+}
+
+
+.Contenedor-Titulo{
+    display:inline-flex;
+}
+
+.Contenedor-Titulo h5{
+    display:inline-flex;
+    margin-top: 7%;
+}
+
+.cont12{
+    margin-left: 17%;
+}
