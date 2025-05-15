@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Productos Más Comprados</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <h2 class="mb-4">Resumen de Ventas</h2>
+
+        <div class="alert alert-info">
+            <strong>Total global de unidades vendidas:</strong> {{ total_global }}
+        </div>
+
+        <h4>Productos más comprados</h4>
+        <table class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>Producto</th>
+                    <th>Total Unidades Vendidas</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for producto in productos %}
+                <tr>
+                    <td>{{ producto.nombre }}</td>
+                    <td>{{ producto.total_vendido }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <a href="{{ url_for('maquina_expendedora') }}" class="btn btn-secondary">Volver a la Máquina</a>
+    </div>
+</body>
+</html>
